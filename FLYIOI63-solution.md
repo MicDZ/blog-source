@@ -1,5 +1,5 @@
 ---
-title: '【FLYIOI63】 逃离'
+title: '【FLYIOI63】逃离 题解'
 date: 2018-11-03 20:03:23
 tags: [题解,bfs,图论,搜索]
 categories:

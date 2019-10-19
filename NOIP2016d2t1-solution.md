@@ -1,5 +1,5 @@
 ---
-title: 【NOIP2016】 组合数问题
+title: 【NOIP2016】组合数问题 题解
 date: 2018-07-26 14:32:19
 tags: [题解,随笔,数学]
 categories:

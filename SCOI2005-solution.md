@@ -1,5 +1,5 @@
 ---
-title: '【SCOI2005】 繁忙的都市'
+title: '【SCOI2005】繁忙的都市 题解'
 date: 2018-05-01 17:08:47
 tags: [题解,kruskal]
 categories:

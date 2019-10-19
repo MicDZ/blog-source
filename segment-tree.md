@@ -20,7 +20,7 @@ categories:
 
 ## 线段树的建立
 
-![](https://i.loli.net/2018/10/12/5bc0c17fabd0b.jpg)
+![](https://www.micdz.cn/img/2019-10-02-13.png)
 
 在[基础数据结构](https://www.micdz.cn/article/basic-ds/)一文中，我有提到线段树是如上的结构。更为准确地描述，应该是一个二叉树。上图也可以很好地表现这一点。
 

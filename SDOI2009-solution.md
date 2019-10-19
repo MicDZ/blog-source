@@ -1,5 +1,5 @@
 ---
-title: '【SDOI2009】 SuperGCD'
+title: '【SDOI2009】SuperGCD 题解'
 date: 2018-06-08 22:58:43
 tags: [题解,数学,高精度]
 categories:

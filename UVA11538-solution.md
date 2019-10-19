@@ -1,5 +1,5 @@
 ---
-title: '【UVA11538】 Chess Queen'
+title: '【UVA11538】Chess Queen题解'
 date: 2019-07-23 22:06:30
 tags: [题解,数学]
 categories:

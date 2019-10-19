@@ -1,5 +1,5 @@
 ---
-title: '【HDU1520】Anniversary party'
+title: '【HDU1520】Anniversary party s题解'
 date: 2018-10-10 23:12:23
 tags: [题解,动态规划,树形dp,dfs]
 categories:

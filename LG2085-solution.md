@@ -1,5 +1,5 @@
 ---
-title: '【LG2085】 最小函数值'
+title: '【LG2085 最小函数值 题解'
 date: 2018-05-12 09:59:02
 tags: [堆,题解]
 categories:

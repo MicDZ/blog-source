@@ -30,26 +30,30 @@ bx'+a\%by'=gcd(b,a\%b)
 $$
 那么只需求出$x$与$x'$，$y$与$y'$的关系即可：
 $$
-\begin{align}
+\begin{aligned}
 bx'+a\%by'&=gcd(b,a\%b)\\=\gcd(a,b)&=ax+by\\
+\end{aligned}
+$$
 
-\end{align}
-$$
 将含$a$与含$b$的合并
+
 $$
-\begin{align}
+\begin{aligned}
 &bx'+a\%by'=ax+by\\
 &bx'+ay'-\lfloor\frac{a}{b}\rfloor b\times y'=ax+by\\
 &b(x'-y-\lfloor\frac{a}{b}\rfloor\times y')+a(y'-x)=0
-\end{align}
+\end{aligned}
 $$
+
 已知该式恒成立，则：
+
 $$
-\begin{align}
+\begin{aligned}
 x&=y'\\
 y&=x'-\lfloor\frac{a}{b}\rfloor\times y'
-\end{align}
+\end{aligned}
 $$
+
 再利用辗转相除的函数递归计算$x$，$y$即可。
 
 代码如下：

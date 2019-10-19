@@ -55,7 +55,7 @@ int main() {
 }
 ```
 
-如图所示![](https://i.loli.net/2018/11/08/5be41d2d9e21c.png)
+如图所示![](https://www.micdz.cn/img/2019-10-02-14.png)
 
 使用cin为2011ms。
 
@@ -83,7 +83,7 @@ int main() {
 }
 ```
 
-如图所示![](https://i.loli.net/2018/11/08/5be41df13c0e9.png)
+如图所示![](https://www.micdz.cn/img/2019-10-02-15.png)
 
 使用scanf为970ms。
 
@@ -118,7 +118,7 @@ int main() {
 }
 ```
 
-如图所示![](https://i.loli.net/2018/11/08/5be41e9d262ed.png)
+如图所示![](https://www.micdz.cn/img/2019-10-02-16.png)
 
 使用快读为364ms。
 
@@ -150,7 +150,7 @@ int main() {
 
 ```
 
-如图所示![](https://i.loli.net/2018/11/08/5be41f70209ef.png)
+如图所示![](https://www.micdz.cn/img/2019-10-02-17.png)
 
 使用关闭同步cin为624ms。
 

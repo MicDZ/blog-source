@@ -18,7 +18,7 @@ categories:
 
 ## 树的形式
 
-![](https://i.loli.net/2018/09/10/5b968fd653fed.jpg)
+![](https://www.micdz.cn/img/2019-10-02-12.png)
 
 
 

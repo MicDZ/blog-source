@@ -1,5 +1,5 @@
 ---
-title: 【LG2893】 修路
+title: 【LG2893】修路 题解
 date: 2018-08-20 22:22:56
 tags: [题解,动态规划,贪心]
 categories:

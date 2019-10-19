@@ -1,5 +1,5 @@
 ---
-title: '【HAOI2006】Travel'
+title: '【HAOI2006】Travel 题解'
 date: 2019-07-29 10:50:23
 tags: [题解,图论]
 categories:
@@ -8,6 +8,8 @@ categories:
 
 题目大意：
 给定一张图，求从s到t经过边权最大与最小之比最小值。
+
+<!--more-->
 
 核心思想：
 

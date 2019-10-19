@@ -18,13 +18,15 @@ tags: [不等式]
 
 *Proof*
 $$
-(x-y)^2\geq0\\
-x^2-2xy+y^2\geq0\\
-x^2+2xy+y^2\geq4xy\\
-(x+y)^2\geq4xy\\
-x+y\geq2\sqrt{xy}\\
-\Leftrightarrow xy\leq\frac{x+y}{2}\\
+\begin{aligned}
+(x-y)^2&\geq0\\
+x^2-2xy+y^2&\geq0\\
+x^2+2xy+y^2&\geq4xy\\
+(x+y)^2&\geq4xy\\
+x+y&\geq2\sqrt{xy}\\
+\Leftrightarrow xy&\leq\frac{x+y}{2}\\
 Equalitiy\ \ occurs\ \ if\ \ and\ \ only\ \ if\ \ x=y.
+\end{aligned}
 $$
 
 > Exercise1. 1
@@ -37,8 +39,10 @@ $$
 
 *Solution*
 $$
+\begin{aligned}
 2x+(8-2x)=8\\
 x(8-2x)=\frac{1}{2}[2x(8-2x)]\leq\frac{1}{2}(\frac{2x-8-2x}{2})^2=8
+\end{aligned}
 $$
 
 > Exercise1.2
@@ -51,10 +55,12 @@ $$
 
 It's easy to know:
 $$
-\frac{1}{a\times a}\leq\frac{1}{a\times(a-1)}.\\
+\frac{1}{a\times a}\leq\frac{1}{a\times(a-1)}.
 $$
 So
 $$
+\begin{aligned}
 1+\frac{1}{2^2}+\frac{1}{3^2}+...+\frac{1}{n^2}<1+\frac{1}{1\times2}+\frac{1}{2\times3}+...+\frac{1}{(n-1)\times n}\\
 =1+\frac1 1 -\frac1 2 +\frac1 2-\frac1 3+...+\frac{1}{n-1}-\frac{1}{n}=2-\frac{1}{n}<2
+\end{aligned}
 $$

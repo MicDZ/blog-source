@@ -36,13 +36,13 @@ $ vim ~/.vimrc
 
 *经过实测，并不要专门为vim新建一个文件夹*
 
-![](https://s1.ax1x.com/2018/07/29/PaNb36.png)
+![](https://www.micdz.cn/img/2019-10-02-2.png)
 
 你会得到一个全新的文件，此时你就可以在这个文件中进行操作了，不需要担心，在这里的一切操作都是可以复原的。
 
 你看到的可能与下面的有些许不同，是因为我已经把配色方案设置好了
 
-![](https://s1.ax1x.com/2018/07/29/PaNLjO.png)
+![](https://www.micdz.cn/img/2019-10-02-1.png)
 
 这是我的配置文件内容
 
@@ -98,7 +98,7 @@ map <F7> <Esc>:w<CR> :q<CR>
 
 当你按照上面的方法完成对VIM的配置后，愉快地进行编程，按下F5后的那一刻
 
-![](https://s1.ax1x.com/2018/07/29/PaNrAs.png)
+![](https://www.micdz.cn/img/2019-10-02-3.png)
 
 woc，macOS竟然不支持bits？！此时心中有千万只***奔腾而过。不要慌张，下面是最轻松的解决方法。
 
@@ -122,9 +122,9 @@ brew install gcc@4.9 --with-all-languages
 
 3. 将编译指令改为g++-4.9
 
-![](https://s1.ax1x.com/2018/07/29/PaNg3V.png)
+![](https://www.micdz.cn/img/2019-10-02-4.png)
 
-![](https://s1.ax1x.com/2018/07/29/PaNfuF.png)
+![](https://www.micdz.cn/img/2019-10-02-5.png)
 
   
 
@@ -144,19 +144,19 @@ int main() {
 
 # 在macOS上与外界交流
 
-![](https://s1.ax1x.com/2018/07/29/PaNB7j.png)
+![](https://www.micdz.cn/img/2019-10-02-6.png)
 
 你只需要登陆你的iCloud账号就可以与任何拥有任意苹果设备的人（包括iPhone、iPod、Mac、iWatch、iPad）进行Facetime通话。如果你的手机在同一个局域网内并且登陆了同一个苹果账号即可进行普通的电话拨打给任意用户。
 
-![](https://s1.ax1x.com/2018/07/29/PaNsNn.png)
+![](https://www.micdz.cn/img/2019-10-02-7.png)
 
 同样的，如果你登陆了iCloud即可给任意拥有苹果设备的人发送iMessage，如果你的手机在同一个局域网内并且登陆了同一个苹果账号即可发送普通的短信给任意用户。
 
-![](https://s1.ax1x.com/2018/07/29/PaNc90.png)
+![](https://www.micdz.cn/img/2019-10-02-11.png)
 
 不仅如此，还有更加厉害的联络方式——使用邮件
 
-![](https://s1.ax1x.com/2018/07/29/PaUp4I.png)
+![](https://www.micdz.cn/img/2019-10-02-8.png)
 
 目前，已经支持了以上的所有邮件公司，足够满足我们的日常生活，但是！
 
@@ -164,11 +164,11 @@ int main() {
 
 以qq企业邮箱为例
 
-![](https://s1.ax1x.com/2018/07/29/PaN4HJ.png)
+![](https://www.micdz.cn/img/2019-10-02-9.png)
 
 苹果的邮箱账户可以利用IMAP协议与你的企业邮箱进行连接，只需要输入您的地址和密码即可
 
-![](https://s1.ax1x.com/2018/07/29/PaNRjU.png)
+![](https://www.micdz.cn/img/2019-10-02-10.png)
 
 # 接力使你的工作更加轻松
 

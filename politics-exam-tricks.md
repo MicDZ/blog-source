@@ -59,7 +59,7 @@ tags: [政治]
 
 > 材料给出：
 >
-> ![](https://i.loli.net/2018/11/22/5bf6c169db931.png)
+> ![](https://www.micdz.cn/img/2019-10-02-18.png)
 >
 > *注：中国GDP同美国相比仍有较大差距*
 >

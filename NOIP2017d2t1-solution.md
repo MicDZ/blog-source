@@ -1,5 +1,5 @@
 ---
-title: 【NOIP2017】 奶酪
+title: 【NOIP2017】奶酪 题解
 date: 2018-04-26 22:17:05
 tags: [题解,搜索,bfs,dfs]
 categories:

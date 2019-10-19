@@ -1,5 +1,5 @@
 ---
-title: 【LG1784】 解数独
+title: 【LG1784】 解数独 题解
 date: 2018-08-16 22:49:58
 tags: [题解,dfs]
 categories:

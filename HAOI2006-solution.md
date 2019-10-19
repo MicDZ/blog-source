@@ -1,5 +1,5 @@
 ---
-title: '【HAOI2006】 聪明的猴子'
+title: '【HAOI2006】聪明的猴子 题解'
 date: 2018-05-05 16:52:38
 tags: [题解,kruskal]
 categories:
@@ -11,10 +11,6 @@ categories:
 题目不难，普及/提高-
 
 <!--more-->
-
-听首歌放松一下。
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=495849828&auto=0&height=66"></iframe>
 
 # 核心思路
 
