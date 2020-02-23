@@ -3,7 +3,7 @@ title: '【UVA11538】Chess Queen题解'
 date: 2019-07-23 22:06:30
 tags: [题解,数学]
 categories:
-- OI   
+- [OI,题解]   
 ---
 
 此题有$\Theta(T)$的做法，感谢lrc大佬讲解

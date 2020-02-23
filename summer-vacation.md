@@ -11,5 +11,5 @@ tags: [总结]
 本文递交已结束。
 
 <!--more-->
-{% pdf https://www.micdz.cn/暑期学习总结.pdf %}
+{% pdf /暑期学习总结.pdf %}
 

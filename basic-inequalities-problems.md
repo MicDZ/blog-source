@@ -10,7 +10,7 @@ tags: [不等式]
 
 <!--more-->
 
-# Basic Inequalities
+## Basic Inequalities
 
 > Theorem1. 1
 >

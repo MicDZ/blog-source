@@ -3,7 +3,7 @@ title: 【LG2085 最小函数值 题解
 date: 2018-05-12 09:59:02
 tags: [堆,题解]
 categories:
-- OI   
+- [OI,题解]   
 ---
 
 
@@ -14,7 +14,7 @@ categories:
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 其中关键在于：
 
@@ -38,7 +38,7 @@ void work(int a,int b,int c){
 
 建议管理员还是可以强化一下数据，hack非正解。
 
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<bits/stdc++.h>

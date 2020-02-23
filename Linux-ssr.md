@@ -15,7 +15,7 @@ A fast tunnel proxy that helps you bypass firewalls.
 Server
 ------
 
-### Install
+## Install
 
 Debian / Ubuntu:
 
@@ -31,7 +31,7 @@ Windows:
 
     git clone https://github.com/shadowsocksr/shadowsocksr.git
 
-### Usage for single user on linux platform
+## Usage for single user on linux platform
 
 If you clone it into "~/shadowsocksr"  
 move to "~/shadowsocksr", then run:

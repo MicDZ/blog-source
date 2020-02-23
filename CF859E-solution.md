@@ -1,16 +1,16 @@
 ---
 title: 【CF859E】Desk Disorder 题解
 categories:
-  - OI
+  - [OI,题解]
 date: 2019-10-20 23:27:21
-tags: [数学]
+tags: [题解,数学]
 ---
 
 [MemSQL Start UP 3.0 - Round 1](https://codeforces.com/contest/859)E题
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 首先，对于每一个人，都只有一种或两种选法。
 
@@ -22,7 +22,7 @@ tags: [数学]
 
 最后用乘法原理把情况统计起来。
 
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<iostream>

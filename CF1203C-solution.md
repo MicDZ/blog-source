@@ -1,7 +1,7 @@
 ---
 title: 【CF1203C】Common Divisors 题解
 categories:
-  - OI
+  - [OI,题解]
 date: 2019-08-14 15:16:32
 tags: [题解,数学]
 ---
@@ -10,17 +10,17 @@ Codeforces Round #579 (Div. 3)  C题
 
 <!--more-->
 
-# 题目大意
+## 题目大意
 
 给定你$n$个数字组成的数列，求解能将这$n$个数都整除的数的个数有多少。
 
-# 核心思路
+## 核心思路
 
 找到这$n$个数的$\gcd$，然后求解这个$\gcd$的因数个数即可。但是由于数字过大，需要用$\Theta(\sqrt a)$的复杂度求解。
 
 $n$个数的GCD求解方法可以参考：$\gcd(a,b,c)=\gcd(\gcd(a,b),c)$
 
-代码如下：
+## 完整代码
 
 ```cpp
 #include<iostream>

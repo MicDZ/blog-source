@@ -3,7 +3,7 @@ title: '【SCOI2005】繁忙的都市 题解'
 date: 2018-05-01 17:08:47
 tags: [题解,kruskal]
 categories:
-- OI   
+- [OI,题解]   
 ---
 
 [题目链接](https://www.luogu.org/problemnew/show/P2330)
@@ -16,7 +16,7 @@ categories:
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 问题一就是输出$n-1$就OK了。
 
@@ -26,11 +26,7 @@ categories:
 
 为什么？[here](https://douglas-zhou.cn/2018/04/28/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/)
 
-<!--more-->
-
-
-
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<bits/stdc++.h>

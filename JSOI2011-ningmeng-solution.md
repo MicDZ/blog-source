@@ -3,12 +3,12 @@ title: 【JSOI2011】柠檬 题解
 date: 2019-10-24 12:41:43
 tags: [题解,动态规划,斜率优化]
 categories:
-- OI
+- [OI,题解]
 ---
 [JSOI2011](https://www.luogu.org/problem/P5504)
 
 <!--more-->
-# 核心思路
+## 核心思路
 
 M_sea写的是真的好啊
 
@@ -33,7 +33,7 @@ $$
 
 求大佬轻D。
 
-# 完整代码
+## 完整代码
 
 
 ```cpp

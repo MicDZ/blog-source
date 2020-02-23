@@ -1,7 +1,7 @@
 ---
 title: 【CF5E】Bindian Signalizing 题解
 categories:
-  - OI
+  - [OI,题解]   
 date: 2019-10-22 12:04:41
 tags: [题解,单调栈]
 ---
@@ -10,7 +10,7 @@ tags: [题解,单调栈]
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 大佬们用的都是[单调栈](https://www.cnblogs.com/tham/p/8038828.html) 。~~考场没想（想不到）那么多~~直接打了一个RMQ。
 
@@ -24,7 +24,7 @@ tags: [题解,单调栈]
 
 那么实现就很好做了。
 
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<iostream>

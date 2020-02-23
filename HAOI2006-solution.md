@@ -3,7 +3,7 @@ title: 【HAOI2006】聪明的猴子 题解
 date: 2018-05-05 16:52:38
 tags: [题解,kruskal]
 categories:
-- OI   
+- [OI,题解]   
 ---
 
 题目链接[here](https://www.lydsy.com/JudgeOnline/problem.php?id=2429)
@@ -12,7 +12,7 @@ categories:
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 > 找到最小生成树的。
 > 
@@ -20,7 +20,7 @@ categories:
 > 
 > 比较每一只猴子的跳跃最远距离与最大边的关系，可以跳过则ans++。
 
-## 易错点
+### 易错点
 
 看上去很简单，可以直接将[最小生成树](https://douglas-zhou.cn/2018/04/28/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/)直接拿过来套模板，我就是这样做的，然而：
 
@@ -34,7 +34,7 @@ categories:
 
 ​	3. f[]数组没有完全初始化。
 
-# 代码
+## 代码
 
 由于套模板，这里的代码非常丑陋。
 

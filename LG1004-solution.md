@@ -3,14 +3,14 @@ title: '【LG1004】方格取数 题解'
 date: 2018-08-01 08:27:59
 tags: [题解,动态规划]
 categories:
-- OI   
+-    
 ---
 
 这是一道四维DP的模版题，思维难度也不大，题目链接[here](https://www.luogu.org/problemnew/show/P1004)
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 定义$dp[i][j][k][l]$为第一次走到$(i,j)$第二次走到$(k,l)$的最优方案，$a[i][j]$为放在$(i,j)$处的数字。
 
@@ -24,7 +24,7 @@ $dp[i][j][k][l]=\max(dp[i-1][j][k-1][l],max(dp[i][j-1][k-1][l],dp[i][j-1][k][l-1
 
 
 
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<bits/stdc++.h>

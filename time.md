@@ -1,7 +1,8 @@
 ---
 title: 2022高考倒计时
 date: 2019-09-13 10:54:35
-type: projects
+group: projects
+tags: [项目]
 ---
 2022高考倒计时是MicDZ由2019中考倒计时项目更改得来。
 

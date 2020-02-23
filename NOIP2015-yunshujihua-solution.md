@@ -1,7 +1,7 @@
 ---
 title: 【NOIP2015】运输计划 题解
 categories:
-  - OI
+  - [OI,题解]
 date: 2019-11-07 23:26:55
 tags: [题解,LCA]
 ---
@@ -10,7 +10,7 @@ tags: [题解,LCA]
 
 <!--more-->
 
-{% pdf https://www.micdz.cn/yunshujihua.pdf %}
+{% pdf /运输计划.pdf %}
 
 [std1](https://www.micdz.cn/yunshujihuastd1.cpp)
 

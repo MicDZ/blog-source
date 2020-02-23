@@ -3,14 +3,15 @@ title: 【CF1066F】Yet another 2D Walking 题解
 date: 2018-11-02 11:43:32
 tags: [题解,图论,动态规划]
 categories:
-- OI   
+- [OI,题解]   
 ---
 
 此题可以用动态规划求解。
 
 <!--more-->
 
-# 题目描述
+## 题目描述
+
 题目链接[here](http://codeforces.com/problemset/problem/1066/F)
 
 小M在平面直角坐标系上的$(0,0)$点。他每次可以向上下左右走一格。
@@ -20,7 +21,7 @@ categories:
 
 ![](https://i.loli.net/2018/11/08/5be39d473e10f.png)
 
-# 核心思路
+## 核心思路
 
 我们将所有的点按照$\max(x,y)$分层，就如上图所示。可以证明只有到达某一层并且将该层完全走完再走下一层是最优的。
 
@@ -37,7 +38,7 @@ $$
 
 在方程中$dis$表示某一层走完的长度。
 
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<bits/stdc++.h>

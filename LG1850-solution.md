@@ -1,7 +1,7 @@
 ---
 title: 【NOIP2016】换教室 题解
 categories:
-  - OI
+  - [OI,题解]
 date: 2019-10-22 20:17:52
 tags: [题解,图论,期望,容斥]
 ---
@@ -12,7 +12,7 @@ tags: [题解,图论,期望,容斥]
 
 <!--more-->
 
-# 核心思路
+## 核心思路
 
 设$dp_{i,j,0/1}$表示前$i$个教室，提交了$j$个申请，第$i$个教室是否成功的最小期望体力。
 
@@ -27,7 +27,7 @@ dp_{i,j,1}&=\min\begin{cases} dp_{i-1,j-1,0}+dis_{c_{i-1},c_i}(1-k_i)+dis_{c_{i-
 \end{aligned}
 $$
 
-# 完整代码
+## 完整代码
 
 ```cpp
 #include<iostream>
