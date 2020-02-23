@@ -12,7 +12,7 @@ PA2014
 
 ## 核心思路
 
-知道了$a$到$b$、$b$到$c$的奇偶性，就知道了$a$到$c$的奇偶 性。要知道任意两点间的奇偶性就只需要保证图联通即可，问题转化为最小生成树。由于是一个完全图，kruskal的复杂度为$\Theta(n^2\log n^2)$的会TLE，只能上prim。
+知道了 $a$ 到$ b$ 、 $b$ 到 $c$ 的奇偶性，就知道了 $a$ 到 $c$ 的奇偶 性。要知道任意两点间的奇偶性就只需要保证图联通即可，问题转化为最小生成树。由于是一个完全图，kruskal的复杂度为 $O(n^2\log n^2)$ 的会TLE，只能上prim。
 
 ## 完整代码
 
@@ -46,7 +46,7 @@ int a[MAXN][MAXN];
 
 int dist[MAXN],vis[MAXN];
 
-signed main() {
+Signed main () {
 	int n=read(),cnt=0;
 	
 	REP(i,1,n) REP(j,i,n) a[i-1][j]=a[j][i-1]=read();
