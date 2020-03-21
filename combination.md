@@ -9,6 +9,7 @@ abstract: 还没写完，这里面什么都没有
 message: 请输入文章访问密码
 wrong_pass_message: 您输入的密码有误，请重试
 wrong_hash_message: 您输入的密码无法验证，您可以查看以此密码解密的文本
+edit: true
 ---
 
 <!--more-->

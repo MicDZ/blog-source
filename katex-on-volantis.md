@@ -6,10 +6,12 @@ date: 2018-12-15 19:24:28
 tags: [katex,material-x]
 ---
 
-::: warning
+
+{% note warning yellow %}
 Upd2019.10.19：以适配新版本的hexo-renderer-markdown-it-plus
 Upd2019.12.11：一些复杂公式的渲染问题可以在[katex.org](https://katex.org/)上进行测试，如果[katex.org](https://katex.org/)上无法正常渲染且您的TeX源码无语法错误的话，请与 [KaTeX](https://katex.org/) 的开发者联系。
-:::
+{% endnote %}
+
 
 随着Material-X的使用用户越来越多、使用用户的范围越来越广。不少用户被如何在Material-X上渲染公式所困。xaoxuu给出的方案是完美的，你只需要在使用最新的版本下将文章开头加入一行`mathjax: true`即可，十分简洁，可以渲染绝大部分简单的公式。
 
