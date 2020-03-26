@@ -52,8 +52,6 @@ jobs:
         git reset --hard origin/master
         git pull origin master
         mv .gitignore .gitignore-zai
-        cd ..
-        cd ..
     - name: Deploy Hexo 
       run: |
         cd blog-code
