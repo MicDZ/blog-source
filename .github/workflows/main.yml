@@ -43,7 +43,7 @@ jobs:
         git config --global user.email 'micdzcn@gmail.com'
     - name: Update the Differences to Blog Code
       run: | 
-        git clone "https://github.com/MicDZ/blog-code.git"
+        git clone "git@github.com:MicDZ/blog-code.git"
         cd blog-code/source/_posts
         git init
         git remote add origin git@github.com:MicDZ/blog-source.git
@@ -51,10 +51,12 @@ jobs:
         git fetch --all
         git reset --hard origin/master
         git pull origin master
+        rm .gitignore .gitignore-zai
         cd ..
         cd ..
     - name: Deploy Hexo 
       run: |
-        hexo clean
-        hexo generate 
-        hexo deploy
+        git add .
+        git commit -m ":white_check_mark:Update from blog-source"
+        git push origin master
+        
