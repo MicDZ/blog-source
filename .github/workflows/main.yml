@@ -51,7 +51,7 @@ jobs:
         git fetch --all
         git reset --hard origin/master
         git pull origin master
-        rm .gitignore .gitignore-zai
+        mv .gitignore .gitignore-zai
         cd ..
         cd ..
     - name: Deploy Hexo 
