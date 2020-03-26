@@ -19,6 +19,8 @@ tags: [线段树,可持久化,学习笔记]
 
 其查询方式与BST类似。
 
+{% folding 权值线段树实现普通平衡树, green %}
+
 ```cpp
 #include<iostream>
 #include<cstdio>
@@ -138,6 +140,8 @@ signed main() {
 	return 0;
 }
 ```
+{% endfolding %}
+
 
 权值线段树可以解决整个区间第 $k$ 大的问题，那么如何动态查询区间第 $k$ 大呢？权值线段树显然是无法完成的。
 
@@ -158,8 +162,7 @@ signed main() {
 建树的过程也非常巧妙，我们可以发现所有与之前相同的节点在后续询问中永远不可能被访问，因此这一部分节点完全没有必要建立出来。可以参考下图。
 ![](/img/2020-1-19-1.png)
 
-下面是[【模板】可持久化线段树 1（主席树）](https://www.luogu.com.cn/problem/P3834)的代码。
-
+{% folding <a href="https://www.luogu.com.cn/problem/P3834">【模板】可持久化线段树 1（主席树）</a> , green %}
 ```cpp
 #include<iostream>
 #include<cstdio>
@@ -230,14 +233,14 @@ int main() {
 	return 0;
 }
 ```
-
+{% endfolding %}
 ### 树上主席树
 
 与主席树前缀和思想相似的，利用树上差分的情况也可以用主席树维护。
 
 与序列不同的是，建树时是儿子节点与父亲节点不同的插入，查询时利用树上差分计算。
 
-下面是[[SDOI2013]森林](https://www.luogu.com.cn/problem/P3302)的代码。
+{% folding<a href="https://www.luogu.com.cn/problem/P3302">[SDOI2013]森林</a> , green %}
 ```cpp
 #include<iostream>
 #include<cstdio>
@@ -410,7 +413,7 @@ int main() {
     return 0;
 }
 ```
-
+{% endfolding %}
 ### 可修改主席树
 
 咕咕咕
